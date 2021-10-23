@@ -1,0 +1,13 @@
+Traffic Simulator for CS4414 HW1
+
+Written by Sagar Jha
+
+Minimum g++ version 10
+Minimum CMAKE version 3.0.0
+
+Run the build.sh script to compile the code.
+The executable "simulator" will be generated in Release/bin directory.
+
+The executable "iconmaker" present in the same directory can generate icons.
+
+After you run the simulator, you can run the script create_kmz.sh back in this folder to get the kmz file generated in the data directory.

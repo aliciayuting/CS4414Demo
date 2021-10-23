@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/output.dir/main.cpp.o -o output  -Wl,-rpath,/Users/yutingyang/Desktop/CS4414Demo/Recitation9/LibraryCMake/build libsay-hello.dylib 

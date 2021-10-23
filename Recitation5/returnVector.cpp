@@ -22,7 +22,7 @@ class CS4414{
 private:
     std::vector<Student> students;
 public:
-    std::vector<Student> get_students(){
+    std::vector<Student>& get_students(){
         return students;
     }
 };
