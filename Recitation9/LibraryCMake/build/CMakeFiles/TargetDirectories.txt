@@ -1,4 +1,0 @@
-/Users/yutingyang/Desktop/CS4414Demo/Recitation9/LibraryCMake/build/CMakeFiles/output.dir
-/Users/yutingyang/Desktop/CS4414Demo/Recitation9/LibraryCMake/build/CMakeFiles/rebuild_cache.dir
-/Users/yutingyang/Desktop/CS4414Demo/Recitation9/LibraryCMake/build/CMakeFiles/edit_cache.dir
-/Users/yutingyang/Desktop/CS4414Demo/Recitation9/LibraryCMake/build/CMakeFiles/say-hello.dir

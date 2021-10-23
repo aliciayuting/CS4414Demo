@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libsay-hello.a CMakeFiles/say-hello.dir/hello.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libsay-hello.a
