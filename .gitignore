@@ -1,2 +1,8 @@
 **/.DS_Store
 .vscode/settings.json
+.vscode/
+.history/
+*~
+logs
+*.log
+.DS_Store
