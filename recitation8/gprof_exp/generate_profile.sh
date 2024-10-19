@@ -1,0 +1,1 @@
+gprof ./slow_matrix_mult gmon.out > report.txt
