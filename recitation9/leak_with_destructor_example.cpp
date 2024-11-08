@@ -23,7 +23,6 @@ private:
 
 void work(int id) {
     auto obj = std::make_unique<MyClass>(id);
-
     obj->doWork();
 }
 
@@ -36,8 +35,10 @@ int main() {
 
     std::cout << "Main function is exiting without joining threads." << std::endl;
 
-    for (int i=0; i < 5; ++i){
-          threads[i].join();
-     }
+    // need to call join() to wait for all threads to finish
+    for (int i = 0; i < 5; ++i) {
+        threads[i].join();  
+    }
+
     return 0;
 }
