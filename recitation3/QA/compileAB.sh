@@ -1,0 +1,1 @@
+g++ -std=c++23 A.cpp B.cpp main.cpp -o ab_class_test
