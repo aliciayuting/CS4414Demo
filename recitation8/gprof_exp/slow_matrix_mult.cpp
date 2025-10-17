@@ -2,8 +2,8 @@
 #include <vector>
 
 std::vector<std::vector<int>> inefficient_matrix_multiply(
-    const std::vector<std::vector<int>>& A,
-    const std::vector<std::vector<int>>& B) {
+    std::vector<std::vector<int>> A,
+    std::vector<std::vector<int>> B) {
 
     int n = A.size();
     std::vector<std::vector<int>> C(n, std::vector<int>(n, 0));
@@ -20,13 +20,13 @@ std::vector<std::vector<int>> inefficient_matrix_multiply(
 }
 
 int main() {
-    const int n = 1000;  
+    const int n = 300;  
     std::vector<std::vector<int>> A(n, std::vector<int>(n, 1));
     std::vector<std::vector<int>> B(n, std::vector<int>(n, 2));
 
-    std::cout << "Starting inefficient matrix multiply..." << std::endl;
+    // std::cout << "Starting inefficient matrix multiply..." << std::endl;
     auto C = inefficient_matrix_multiply(A, B);
-    std::cout << "Done. Result[0][0] = " << C[0][0] << std::endl;
+    // std::cout << "Done. Result[0][0] = " << C[0][0] << std::endl;
 
     return 0;
 }
