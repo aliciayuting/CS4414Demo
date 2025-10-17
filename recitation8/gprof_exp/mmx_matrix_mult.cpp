@@ -2,18 +2,14 @@
 #include <cstring>       // std::memset
 #include <iostream>
 
-// -------- Parameters --------
-// Pick your matrix size here (known at compile time)
-constexpr int N = 256;
+constexpr int N = 300;
 
-// Optional: align to 32 bytes for nicer loads/stores
 alignas(32) float A[N][N];
 alignas(32) float B[N][N];
 alignas(32) float C[N][N];
 
 // Zero-initialize a matrix C (C-style array)
 static inline void zero_matrix(float c[][N]) {
-    // safe because the matrix is contiguous in row-major
     std::memset(c, 0, sizeof(float) * N * N);
 }
 
@@ -30,7 +26,6 @@ void matmul_simd(const float a[][N], const float b[][N], float c[][N]) {
 }
 
 int main() {
-    // Example init: A = 1s, B = 2s
     for (int i = 0; i < N; ++i) {
         for (int k = 0; k < N; ++k) {
             A[i][k] = 1.0f;
