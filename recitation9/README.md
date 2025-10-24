@@ -79,3 +79,9 @@ llama-cli -m tinyllama-1.1b-chat-v0.3.Q4_K_M.gguf \
   -p "Explain RDMA in two sentences. "
 ```
 
+
+
+### Writing CPP code using llama.cpp
+
+https://github.com/ggml-org/llama.cpp/blob/0bcb40b48c6fc6f17ba9672625e526ab2574344b/examples/simple/simple.cpp
+
