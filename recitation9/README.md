@@ -35,26 +35,26 @@ make -j$(nproc)
 make install
 ```
 
+
 #### 1.3 Add to PATH
 
 Add the library installation directory to PATH, so that when you compile your CPP code using this library, it will be able to find it
 
 ```
 export PATH=~/opt_dev/bin:$PATH
-export LD_LIBRARY_PATH=~/opt_dev/lib:$LD_LIBRARY_PATH
 ```
 
 You can also append this to ```~/.bashrc``` so that next time when you open the terminal it will be automatically loaded
 
 ```
 echo "export PATH=~/opt_dev/bin:\$PATH" >> ~/.bashrc
-echo "export LD_LIBRARY_PATH=~/opt_dev/lib:\$LD_LIBRARY_PATH" >> ~/.bashrc
 ```
 
 Then reload
 ```
 source ~/.bashrc
 ```
+
 
 ## 2. Run Llama.cpp
 
