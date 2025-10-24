@@ -85,3 +85,5 @@ llama-cli -m tinyllama-1.1b-chat-v0.3.Q4_K_M.gguf \
 
 https://github.com/ggml-org/llama.cpp/blob/0bcb40b48c6fc6f17ba9672625e526ab2574344b/examples/simple/simple.cpp
 
+We gave an example under folder llama_example (```run_llama.cpp```), you can compile it using ```compile.sh``` or via ```CMakeLists.txt```
+Noted that the library location is fixed based on the installation we described at Section 1.2 above.
