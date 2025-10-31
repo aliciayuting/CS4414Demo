@@ -42,12 +42,14 @@ Add the library installation directory to PATH, so that when you compile your CP
 
 ```
 export PATH=~/opt_dev/bin:$PATH
+export LD_LIBRARY_PATH=$HOME/opt_dev/lib:$LD_LIBRARY_PATH
 ```
 
 You can also append this to ```~/.bashrc``` so that next time when you open the terminal it will be automatically loaded
 
 ```
 echo "export PATH=~/opt_dev/bin:\$PATH" >> ~/.bashrc
+echo "export LD_LIBRARY_PATH=$HOME/opt_dev/lib:$LD_LIBRARY_PATH" >> ~/.bashrc
 ```
 
 Then reload
